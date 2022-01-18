@@ -1974,7 +1974,7 @@ vertical-align: middle;
 .semi-circe{
 display: block;
 
-vertical-align: middle;
+/*vertical-align: middle;*/
 
 align-content: center;
 
@@ -2082,11 +2082,9 @@ display: block;
 }
 
 .icono{
-vertical-align: middle;
-display: block;
-
-padding: 55px 0px 0px 0px;
-
+    /*vertical-align: middle;*/
+    display: block;
+    padding: 55px 0px 0px 0px;
 }
 .glyphicon {
 position: relative;
@@ -2105,7 +2103,7 @@ position: relative;
 }
 
 .in{
-vertical-align: middle;
+/*vertical-align: middle;*/
 
 display: block;
 
@@ -2126,7 +2124,7 @@ display : none
 .circle-sub 
 {display: block;
 
-vertical-align: middle;
+/*vertical-align: middle;*/
 
 align-content: center;
 
@@ -2781,9 +2779,6 @@ text-align: center;
   padding: 30px;
 }
 
-.intro_statistic .cmb{
-}
-
 .intro_statistic .cmb .it_select{
   width: 220px;
 }
@@ -3157,8 +3152,6 @@ font-weight: bold;
 
 /* FIN GENERAL 3 */
 
-@charset "utf-8";
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -3307,9 +3300,6 @@ table {
   padding: 0 10% 32px 10%;
 }
 
-.bloque {
-
-}
 .bloque__100 {
       width: 100%;
     }
@@ -3337,10 +3327,6 @@ table {
 .bloque__32 {
   width: 32%;
 }
-
-/* .bloque__margin__left__10 {
-  margin-left: 10px;
-} */
 
 .bloque__contenido {
   padding: 15px 25px;
@@ -3531,7 +3517,7 @@ table {
   text-indent: -9999px;
   font-size: 1px;
   background: transparent url(delete.png) no-repeat 0 0;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   margin:  0 auto;
 }
 
@@ -3542,7 +3528,7 @@ table {
   text-indent: -9999px;
   font-size: 1px;
   background: transparent url(images/complete.png) no-repeat 0 0;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   margin:  0 auto;
 }
 
@@ -4028,7 +4014,7 @@ table {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	line-height: 20px;
 }
 
@@ -4133,9 +4119,9 @@ table {
 }
 
 /* When the radio button is checked, add a blue background */
-.container__radio input:checked ~ .checkmark {
-  /* background-color: #3D4550; */
-}
+/*.container__radio input:checked ~ .checkmark {
+   background-color: #3D4550; 
+}*/
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .container__radio .checkmark:after {
