@@ -1,3 +1,7 @@
+.activado{
+  border-bottom: 3px solid #C2C2C2;
+}
+
 @font-face{
     font-family: 'PoppinsSemibold';
     src: url('poppins_semibold.eot');
@@ -3117,7 +3121,7 @@ font-weight: bold;
 
 .modList::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px #fff;
+/*	-webkit-box-shadow: inset 0 0 6px #fff;*/
 	background-color: #fff;
 }
 
@@ -3135,7 +3139,7 @@ font-weight: bold;
 
 .wrCol::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px #fff;
+	/*-webkit-box-shadow: inset 0 0 6px #fff;*/
 	background-color: #fff;
 }
 
