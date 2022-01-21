@@ -2,12 +2,12 @@ import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
 //Importar Componentes
-import { ProductoGenericoComponent } from "./ProductoGenerico/ProductoGenerico.component";
+import { ProdGenComponent } from "./prod-gen/prod-gen.component"; 
 
 const appRoutes: Routes = [
-    {path: '', component: ProductoGenericoComponent},
-    {path: 'ProductoGenerico', component: ProductoGenericoComponent},
-    {path: '**', component: ProductoGenericoComponent}
+    {path: '', component: ProdGenComponent},
+    {path: 'Prod-Generico', component: ProdGenComponent},
+    {path: '**', component: ProdGenComponent}
 ];
 
 export const appRoutingProviders: any[] = [];

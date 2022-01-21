@@ -4,27 +4,26 @@
 
 @font-face{
     font-family: 'PoppinsSemibold';
-    src: url('poppins_semibold.eot');
-    src: url('poppins_semibold.eot?#iefix') format('embedded-opentype'),
-         url('poppins_semibold.ttf') format('truetype');
+    src: url(font/poppins_semibold.eot);
+    src: url(font/poppins_semibold.eot?#iefix) format('embedded-opentype'),
+         url(font/poppins_semibold.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face{
     font-family: 'PoppinsMedium';
-    src: url('poppins_medium.eot');
-    src: url('poppins_medium.eot?#iefix') format('embedded-opentype'),
-         url('poppins_medium.ttf') format('truetype');
+    src: url(./font/poppins_medium.eot) format("opentype");
+    src: url(font/poppins_medium.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face{
     font-family: 'PoppinsRegular';
-    src: url('poppins_regular.eot');
-    src: url('poppins_regular.eot?#iefix') format('embedded-opentype'),
-         url('poppins_regular.ttf') format('truetype');
+    src: url(font/poppins_regular.eot);
+    src: url(font/poppins_regular.eot?#iefix) format('embedded-opentype'),
+         url(font/poppins_regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -3487,6 +3486,7 @@ table {
 /* ENLACES */
 .link {
   text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -3501,7 +3501,7 @@ table {
   line-height: 30px;
   color: #2F343A;
   padding-left: 35px;
-  background: transparent url(plus.png) no-repeat 0 50%;
+  background: transparent url(./img/plus.png) no-repeat 0 50%;
 }
 
 .link__cerrar {

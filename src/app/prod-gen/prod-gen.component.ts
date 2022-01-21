@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prod-gen.component.css']
 })
 export class ProdGenComponent implements OnInit {
+  public titulo: string;
+  constructor() {
+    this.titulo = 'Producto Genérico';
 
-  constructor() { }
+   }
 
   ngOnInit(): void {
   }
